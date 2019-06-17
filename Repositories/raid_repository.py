@@ -4,7 +4,7 @@ from mysql.connector import errorcode
 #
 
 import sys
-sys.path.insert(0, '/Projects/raid_project/API/src/Models')
+sys.path.insert(0, '/Projects/raid_tracker/src/Models')
 from raid import Raid
 
 class RaidRepository:
